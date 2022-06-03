@@ -1,0 +1,24 @@
+.heading {
+  display: block;
+  background-color: #ff9999;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+.flex-container {
+  display: flex;
+}
+.left {
+  width: 76%;
+  margin: 16px;
+}
+.right {
+  background-color: #ff9999;
+  width: 24%;
+  margin: 16px;
+}
+
+.leftListItem {
+  margin: 20px;
+  cursor: pointer;
+}
