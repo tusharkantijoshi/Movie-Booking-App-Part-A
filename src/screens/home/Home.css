@@ -10,10 +10,10 @@
 }
 .left {
   width: 76%;
+  /* display: flex; */
   margin: 16px;
 }
 .right {
-  background-color: #ff9999;
   width: 24%;
   margin: 16px;
 }

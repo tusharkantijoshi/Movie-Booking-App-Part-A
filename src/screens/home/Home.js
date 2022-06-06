@@ -5,7 +5,7 @@ import Header from "../../common/header/Header.js";
 import SingleLineImageList from "./movieList";
 import moviesData from "../../common/moviesData";
 import TitlebarImageList from './leftImageList'
-
+import SimpleCard from "./filters";
 class Home extends React.Component {
 
     constructor(props) {
@@ -26,7 +26,9 @@ class Home extends React.Component {
                     <div className="left">
                         <TitlebarImageList moviesData={this.state.data} />
                     </div>
-                    <div className="right"></div>
+                    <div className="right">
+                        <SimpleCard />
+                    </div>
                 </div>
 
             </div>
